@@ -18,8 +18,6 @@ logo.onload = function() {
     context.globalAlpha = 0.1;
     context.drawImage(logo, 117, 117, 216, 216);
     drawChessBoard();
-    oneStep(0, 0, true);
-    oneStep(1, 1, false);
 }
 
 var drawChessBoard = function() {
