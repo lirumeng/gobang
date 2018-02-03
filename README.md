@@ -25,7 +25,7 @@ context.arc()
 - 填充渐变色
 
 ```javascript
-var gradient = context.createRadialGradient(rx1,ry1,r,rx2,ry2,r2);
+var gradient = context.createRadialGradient(x1,y1,r,x2,y2,r2);
 gradient.addColorStop(0, '#0a0a0a');
 gradient.addColorStop(1, '#636766');
 ```
